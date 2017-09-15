@@ -2,8 +2,17 @@ img{
     max-width: 300;
 }
 
+.navbar{
+    background: rgba(255,255,255,0.6);
+}
+
+.navbar ul{
+    font-weight: bold;
+}
+
 .navbar button{
     margin: 12;
+    font-weight: bold;
 }
 
 #loginbtn{
@@ -15,7 +24,109 @@ img{
     min-width: 100px;
 }
 
-.container-fluid{
-    background-image: url(../images/section1bg.jpg) !important;
+#landing{
+    background-image: url(../images/section1bg@2x.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+#landingtext{
+    text-align: center;
+    padding: 225px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+@media (max-width: 480px){
     
+    .navbar{
+        background: rgba(255,255,255,1);
+    }
+    
+    #landingtext{
+        padding:inherit;
+        padding-top: 150px;
+        padding-bottom: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    
+    .brand img{
+        max-width: 200;
+    }
+    
+    .navbar button{
+        margin: auto;
+    }
+    
+    #footerlogo{
+        margin: auto !important;
+    }
+    
+    #footerlogo img{
+        max-width: 250;
+    }
+}
+
+#order{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background: none;
+    margin: 6px;
+    min-width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section2{
+    background-image: url(../images/section2bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.section2 h3{
+    margin-top: 60px;
+}
+
+#special img{
+    max-height: 150px;
+}
+
+#menucard{
+    margin: 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    background: none;
+    min-width: 100px;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: rgba(0,0,0,0.66);
+}
+
+.footer a,ul{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255,255,255,0.8);;
+}
+
+.footer ul{
+    margin:25px;
+}
+
+#footerlogo {
+    text-align: center;
+    margin-top: 80px;
 }
