@@ -1,0 +1,21 @@
+img{
+    max-width: 300;
+}
+
+.navbar button{
+    margin: 12;
+}
+
+#loginbtn{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: none;
+    margin: 6px;
+    min-width: 100px;
+}
+
+.container-fluid{
+    background-image: url(../images/section1bg.jpg) !important;
+    
+}
