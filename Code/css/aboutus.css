@@ -1,0 +1,113 @@
+.brand img{
+    max-width: 300px;
+}
+
+.navbar{
+    font-weight: 500;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.navbar button{
+    margin: 15px;
+}
+
+#loginbtn{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    background: none;
+    margin: 6px;
+    min-width: 100px;
+}
+
+#section{
+    background-image: url(../images/aboutusbg@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 110px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#section h3{
+    text-align: center;
+    
+}
+
+.textarea{
+    background-color: rgba(255,255,255,0.5);
+    padding:50px;
+}
+
+@media (max-width: 480px){
+    #section{
+        padding: inherit;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    
+    .brand img{
+        max-width: 200px;
+    }
+    
+    .navbar button{
+        margin: auto;
+    }
+    
+    .navbar{
+        background-color: white;
+    }
+    
+    #footerlogo{
+        margin: auto !important;
+    }
+}
+
+@media (min-width: 1920px){
+    #section{
+        padding: inherit;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+    .textarea{
+        padding: 100px;
+    }
+    
+    .textarea h3{
+        font-size: 50px;
+    }
+    
+    .textarea p{
+        font-size: 20px;
+    }
+}
+
+footer{
+    background-color: rgba(0,0,0,0.66);
+}
+
+footer a,ul{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255,255,255,0.8);;
+}
+
+footer ul{
+    margin:25px;
+}
+
+#footerlogo {
+    text-align: center;
+    margin-top: 90px;
+    opacity: 0.5;
+    filter: grayscale();
+}
+
+#footerlogo img{
+    max-width: 250px;
+}
