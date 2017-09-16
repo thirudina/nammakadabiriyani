@@ -25,7 +25,7 @@ img{
 }
 
 #landing{
-    background-image: url(../images/section1bg@2x.png);
+    background-image: url(../images/section1bg@2x.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -82,7 +82,7 @@ img{
 }
 
 .section2{
-    background-image: url(../images/section2bg@2x.png);
+    background-image: url(../images/section2bg@2x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,4 +129,36 @@ img{
 #footerlogo {
     text-align: center;
     margin-top: 80px;
+    opacity: 0.5;
+    filter: grayscale();
+}
+
+@media (min-width: 1920px){
+    #landingtext{
+        text-align: center;
+        padding: 370px;
+        font-size: 60px;
+        font-weight: 400;
+    }
+    
+    .section2{
+        padding: inherit;
+        padding-top: 200px;
+        padding-bottom: 250px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .section2 h3{
+        font-size: 50px;
+        margin: auto;
+    }
+    
+    .section2 p{
+        font-size: 25px;
+    }
+    
+    #special{
+        margin-top: 100px;
+    }
 }
